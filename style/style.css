@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Mainstay";
+    src: url(/fonts/Mainstay.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body{
+    padding: 0 0px;
+    background-color: #171717;
+}
+
+/*NAV BAR*/
+
+.nav-bar{
+    width: 100%;
+    background-color: #411f2d;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo{
+    font-family: "Mainstay";
+    text-shadow: 
+    -1px -1px 0px #fff, 
+    -1px 1px 0px #fff,                    
+     1px -1px 0px #fff,                  
+     1px 0px 0px #fff;
+}
+
+.logo h1{
+    font-size: 2.5rem;
+    color: #ac4147;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+/*PAGINA INICIAL*/
+main{
+    padding: 0 200px;
+    margin-top: 50px;
+}
+
+main p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    margin-bottom: 25px;
+    margin-top: 35px;
+    border-radius: 25px;
+    width: 1280px;
+    height: 720px;
+}
+
+/*SEIES*/
+.catalogo_series{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_series{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ul_series{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteudo_series{
+    height: 400px;
+    width: 200px;
+    margin-left: 75px;
+    list-style: none;
+    transition: 0.4s;
+}
+
+.conteudo_series:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.conteudo_series img{
+    width: 100%;
+}
+
+/*FILME*/
+.filme{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.filme img{
+    height: 700px;
+    border-radius: 25px;
+}
+
+.info-filme{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-filme h1{
+    font-family: "Poppins";
+    color: #fff;
+}
+
+.info-filme p{
+    padding: 10px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+.sinopse{
+    margin-top: 50px;
+    background-color: #411f2d;
+    border-radius: 50px;
+    padding: 100px;
+}
+
+.sinopse h1{
+    font-family: "Poppins";
+    color: #ac4147;
+}
+
+.abertura{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.abertura h1{
+    font-family: "Poppins";
+    color: #fff;
+}
+
+iframe{
+    border-radius: 50px;
+}
